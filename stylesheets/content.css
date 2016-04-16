@@ -1,0 +1,203 @@
+/* Copyright Code-it Creations */
+/* ############################################################################ Content CSS */
+
+/* Font Squirrel */
+@font-face {  
+  font-family: "Journal";  
+  src: url(../fonts/journal/journal.eot); /* IE */  
+  src: local("Quarmic"), url(../fonts/journal/journal.ttf) format("truetype"); /* non-IE */  
+} 
+
+h1 { font-size: 25px; color: #0b77d0; font-weight:normal; margin-bottom: 5px; }
+h2 { font-size: 18px; color: #0b77d0; font-weight:normal; margin-bottom: 5px; }
+h3 { font-size: 16px; color: #0b77d0; font-weight:normal; margin-bottom: 5px; }
+h4 { font-size: 14px; color: #0b77d0; font-weight:normal; margin-bottom: 5px; }
+p { font-size: 15px; color: #E0E0E0; font-weight:normal; margin-bottom: 10px; }
+em { position: absolute; }
+
+.clear { clear: both !important; }
+.clearl { clear: left !important; }
+.clearr { clear: right !important; }
+
+.left { float: left; }
+.right { float: right; }
+
+.hide {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+label, select, input, textarea { display: block; width: 100%; }
+label { padding-top: 5px; }
+input, textarea { 
+	padding: 4px 3px; 
+	border: solid 1px #211e1d;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	background: #BDBDBD;
+}
+
+input:focus, input:hover, textarea:focus, textarea:hover { background: #fff; }
+textarea { height: 80px; }
+
+.theError {
+	position: absolute;
+	top: 174px;
+	left: 308px;
+	display: none;
+}
+
+/* jQuery form validation CSS */
+
+.error input, .error textarea, .error select {
+	border-width:2px;
+	border-style:solid;
+	border-color:#ED1C24;
+	background:#FFE6E7;
+	}
+.iferror {
+	margin:0;
+	display:none;
+	position: absolute;
+	top: 10px;
+	right: 0;
+	font-size: 11px;
+	}
+.error .iferror {
+	display:block;
+	color:#ED1C24;
+	}
+
+.hint { color:#888; }
+
+.field {
+	position: relative;
+}
+
+/* End jQuery form validation CSS */
+
+.button { 
+	background: #06589c;
+	color: #000; 
+	padding: 2px 4px; 
+	width: 100px; 
+	margin-top: 4px; 
+	font-weight: bold;
+background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(28,66,100)),
+    color-stop(0.5, rgb(12,118,205))
+);
+background: -moz-linear-gradient(
+    center bottom,
+    rgb(28,66,100) 0%,
+    rgb(12,118,205) 50%
+);
+}
+
+.button:hover { 
+	background: #175183;
+	color: #ccc; 
+	cursor: pointer;
+background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(28,66,100)),
+    color-stop(0.8, rgb(12,118,205))
+);
+background: -moz-linear-gradient(
+    center bottom,
+    rgb(28,66,100) 0%,
+    rgb(12,118,205) 80%
+);
+}
+
+.errorWrap, .success {
+	background: red;
+	color: #fff;
+	padding: 2px 4px;
+	margin: 2px 0;
+	font-weight: bold;
+	border: solid 1px red;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.success {
+	background: #06589c;
+	border: solid 1px #06589c;
+	width: 100%;
+}
+
+.errorWrap a {
+	color: #1D344A;
+	font-weight: bold;
+}
+
+.errorWrap a:hover {
+	color: #fff;
+}
+
+::selection {
+	color: #0b77d0; 
+	}
+::-moz-selection {
+	color: #0b77d0; 
+}
+
+body {
+	background: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #F5F5F5;
+	min-width: 980px;
+}
+
+#containerTop, #containerBottom, #subContTop, #subContBottom {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+#containerTop {
+	background: #000 url('../images/bckTop.jpg') repeat-x top right;
+}
+
+#containerBottom {
+	background: #000 url('../images/bckBottom.jpg') repeat-x top right;
+}
+
+#subContTop {
+	background: url('../images/textBckTop.png') no-repeat center top;
+}
+
+#subContBottom {
+	background: url('../images/textBckBottom.png') no-repeat center top;
+}
+
+.content {
+	margin: 0 auto;
+	width: 877px;
+	position: relative;
+}
+	.content .section {
+		float: left;
+		width: 872px;
+		position: relative;
+	}
+	
+#header {
+	height: 183px;
+	padding-top: 50px;
+	position: relative;
+}
+
+.preloadBlock {
+	display: none !important;
+}
+
+/* ############################################################################ End Content CSS */
+

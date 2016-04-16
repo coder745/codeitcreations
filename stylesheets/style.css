@@ -1,0 +1,394 @@
+#cornerR {
+	background: url('../images/cornerR.png') no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 97px;
+	height: 97px;
+}
+#cornerL {
+	background: url('../images/cornerL.png') no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 97px;
+	height: 97px;
+}
+
+#copy {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 9px;
+	padding: 0 5px 5px 0;
+}
+
+#header h1, #header h2 {
+	text-indent: -9999px;
+}
+#header #clogo {
+	background: url('../images/codeit.png') no-repeat;
+	width: 62px;
+	height: 62px;
+	position: absolute;
+	top: 37px;
+	left: -70px;
+	display: none;
+}
+#header #logo {
+	background: url('../images/codeit.png') no-repeat -71px -65px;
+	width: 261px;
+	height: 60px;
+}
+	#logo a {
+		display: block;
+	}
+#header #slogan {
+	background: url('../images/codeit.png') no-repeat 0px -139px;
+	width: 356px; 
+	height: 58px;
+	float: right;
+	position: relative;
+	top: -30px;
+}
+#header ul#nav {
+	position:absolute;
+	right: 32px;
+	top: 67px;
+}
+	#header ul#nav li {
+		float: left;
+		font-size: 14px;
+	}
+		#header ul#nav li a {
+			display: block;
+			float: left;
+			font-weight: bold;
+			padding: 0 8px;
+			font-size: 16px;
+		}
+		#header ul#nav li a:hover {
+			color: #0b77d0;
+		}
+		
+.section > h1 {
+	text-align: center;
+	color: #858585;
+	font-size: 21px;
+	letter-spacing: 4px;
+}
+.section .sub {
+	float: left;
+	margin-right: 40px;
+	width: 264px;
+}	
+	.section .sub.last {
+		margin-right: 0;
+	}
+	
+.section.top {
+	height: 291px;
+	background: url('../images/codeit.png') no-repeat 7px 282px;
+}
+	.section.top .rounded {
+		width: 874px;
+		height: 25px;
+		position: relative;
+		top: 2px;
+	}
+		.section.top .rounded .rLeft {
+			background: url('../images/codeit.png') no-repeat -596px -66px;
+			position: absolute;
+			left: 1px;
+			top: 0;
+			width: 22px;
+			height: 25px;
+		}
+		.section.top .rounded .middle {
+			background: url('../images/roundRepeat.png') repeat-x;
+			margin: 0 auto;
+			width: 828px;
+			height: 25px;
+		}
+		.section.top .rounded .rRight {
+			background: url('../images/codeit.png') no-repeat -627px -66px;
+			float: right;
+			position: absolute;
+			right: 1px;
+			top: 0;
+			width: 22px;
+			height: 25px;
+		}
+	/* Line image at the bottom  */
+	.section.top img {
+		padding-top: 15px;
+	}
+	.section.top .sub {
+		margin-top: 5px;
+	}
+	.section.top .sub h1 {
+		font-family: Journal;
+		font-size: 44px;
+		text-shadow: #989898 0px 1px 1px;
+		line-height: 1.2;
+	}
+		.section.top .sub h1 span {
+			display: none;
+		}
+	
+/* Next one from the top */
+.section.next {
+	height: 482px;
+}
+	.section.next .rounded {
+		width: 474px;
+		margin: 0 auto;
+		position: relative;
+		top: 10px;
+	}
+		.section.next .rounded .rLeft {
+			background: url('../images/codeit.png') no-repeat -649px -57px;
+			position: absolute;
+			left: 41px;
+			top: 0;
+			width: 33px;
+			height: 55px;
+		}
+		.section.next .rounded .middle {
+			background: url('../images/titleButtonRepeat.png') repeat-x;
+			margin: 0 auto;
+			width: 333px;
+			height: 55px;
+		}
+		.section.next .rounded .rRight {
+			background: url('../images/codeit.png') no-repeat -689px -57px;
+			float: right;
+			position: absolute;
+			right: 41px;
+			top: 0;
+			width: 30px;
+			height: 55px;
+		}
+	.section.next > h1 {
+		position: relative;
+		top: -36px;
+	}
+	.section.next .imgCont {
+		margin-top: 5px;
+		float: left;
+		width: 100%;
+	}		
+		.section.next .sub {
+			margin-right: 30px;
+			*margin-top: 10px;
+		}
+			.section.next .sub.last {
+				margin-right: 0;
+			}
+		.section.next .imgCont img {
+			width: 253px;
+			height: 195px;
+			margin-right: 40px;
+			box-shadow: 2px 1px 5px #000;
+			-webkit-box-shadow: 2px 1px 5px #000;
+			-moz-box-shadow:2px 1px 5px #000;
+		}
+		.section.next .imgCont img:hover {
+			box-shadow: 2px 1px 5px #aaa;
+			-webkit-box-shadow: 2px 1px 5px #aaa;
+			-moz-box-shadow: 2px 1px 5px #aaa;
+		}
+		.section.next .imgCont img.last {
+			margin-right: 0;
+		}
+
+	.section.next .imgDescCont {
+		float: left;
+		padding-bottom: 50px;
+	}
+	.section.next .imgDescCont h2 {
+		font-size: 15px;
+	}
+	.section.next .imgDescCont p {
+		font-size: 11px;
+		padding-right: 6px;
+	}
+	.section.next .imgDescCont a {
+		font-size: 11px;
+		color: #0b77d0;
+	}
+	.section.next .imgDescCont a:hover {
+		color: #BDBDBD;
+	}
+	
+	p.disclaimer {
+		font-size: 11px;
+		margin-bottom: 10px;
+		overflow: hidden;
+		width: 730px;
+	}
+	
+	.section.next img {
+		float: left;
+		margin: 10px 0;
+		position: relative;
+	}
+	.section.next img#expand {
+		padding-top: 15px;
+		display: none;
+	}
+
+#portLinkCont {
+	width: 100%;
+	float: left;
+}	
+	
+/* Slide Down */
+#morePortfolio {
+	background: url('../images/repeat.jpg');
+	width: 100%;
+	float: left;
+	display: none;
+}
+
+#morePortfolio .section.next {
+	background: none;
+	height: auto;
+	padding-bottom: 20px;
+}
+
+#morePortfolio .section.next .imgCont {
+	margin-top: 0;
+}
+		
+.section.contact {
+	height: 500px;
+}
+	.section.contact #plus {
+		background: url('../images/codeit.png') no-repeat -330px -56px;
+		width: 132px;
+		height: 70px;
+		float: left;
+		position: absolute;
+		right: 0px;
+		top: -69px;
+	}
+	.section.contact #plus:hover {
+		background: url('../images/codeit.png') no-repeat -459px -56px;
+		cursor: pointer;
+	}
+	.section.contact .rounded {
+		width: 474px;
+		margin: 0 auto;
+		position: relative;
+		top: 2px;
+	}
+		.section.contact .rounded .rLeft {
+			background: url('../images/codeit.png') no-repeat -649px -57px;
+			position: absolute;
+			left: 41px;
+			top: 0;
+			width: 30px;
+			height: 55px;
+		}
+		.section.contact .rounded .middle {
+			background: url('../images/titleButtonRepeat.png') repeat-x;
+			margin: 0 auto;
+			width: 333px;
+			height: 55px;
+		}
+		.section.contact .rounded .rRight {
+			background: url('../images/codeit.png') no-repeat -689px -57px;
+			float: right;
+			position: absolute;
+			right: 41px;
+			top: 0;
+			width: 30px;
+			height: 55px;
+		}
+	.section.contact > h1 {
+		position: relative;
+		top: -45px;
+	}
+
+	.section.contact #address {
+		float: right;
+		border-left: dotted 1px #fff;
+		border-bottom: dotted 1px #0b77d0;
+		padding: 0 0 0px 8px;
+		margin-top: 47px;
+	}
+		.section.contact #address strong {
+			color: #0b77d0;
+		}
+		.section.contact #address a:hover {
+			color: #0b77d0;
+		}
+	
+	.section.contact #contactBox {
+		float: left;
+		width: 443px;
+	}
+	.section.contact #contactBox h1 {
+		font-size: 18px;
+	}
+
+.section.bottom {
+	height: 269px;
+	font-family: sans-serif;
+	font-size: 8px;
+}
+
+.section.bottom #footerCont {
+	float: left;
+	margin-top: 40px;
+}
+	.section.bottom #footerCont .sub h4  {
+		color: #0b77d0;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		font-size: 10px;
+	}
+	.section.bottom #footerCont .sub p {
+	font-size: 8px;
+	font-size: 10px;
+	color: #999999;
+	}
+	
+.section.bottom #subnav {
+	float: left;
+	margin-top: 40px;
+	position: relative;
+}
+	.section.bottom #subnav h4 {
+		color: #fff;
+		font-size: 10px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+	.section.bottom #subnav img {
+		position: absolute;
+		bottom: 0;
+		left: -30px;
+	}
+	.section.bottom #subnav ul {
+		float: left;
+	}
+	.section.bottom #subnav ul li {
+		float: left;
+		color: #0b77d0;
+	}
+	.section.bottom #subnav ul li a {
+		float: left;
+		display: block;
+		font-weight: normal;
+		padding: 2px 8px;
+		color: #0b77d0;
+		font-size: 10px;
+	}
+	.section.bottom #subnav ul li a:hover {
+		color: #fff;
+	}
+	.section.bottom #subnav ul li a.first {
+		padding-left: 0;
+	}

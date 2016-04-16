@@ -1,0 +1,95 @@
+/*Copyright Code-it Creations
+Written by Joshua Young, Web Designer/Developer
+*/
+/* ############################################################################ Reset CSS */
+/* Reset style adopted from Blueprint */
+
+* {
+padding:0;
+margin:0
+}
+
+body {
+font-size: 14px;
+line-height: 1.0;
+}
+
+* {
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+margin:0;
+outline: none;
+padding:0;
+text-decoration: none
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, tr, th, td {
+border:0;
+font-family: inherit;
+font-size: 100%;
+font-style: inherit;
+font-weight: inherit;
+margin:0;
+padding:0;
+vertical-align: baseline
+}
+
+body {
+background: #fff;
+color: #000;
+line-height: 1.5
+}
+
+code,kbd,samp,pre,tt,var,textarea,input,select,isindex {
+font: inherit;
+font-size: 1em
+}
+
+dfn,i,cite,var,address,em {
+font-style: normal
+}
+
+th,b,strong,h1,h2,h3,h4,h5,h6 {
+font-weight: 400
+}
+
+a,img,a img,iframe,form,fieldset,abbr,acronym,object,applet {
+border:none
+}
+
+q {
+quotes:"" ""
+}
+
+ul,ol,dl,li,dt,dd dir,menu {
+list-style: none
+}
+
+sub,sup {
+vertical-align: baseline
+}
+
+a {
+color: #989AAF;
+}
+
+hr {
+display:none
+}
+
+font {
+color:inherit !important;
+font:inherit !important
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+ content: "" 
+ }
+ 
+blockquote, q { 
+quotes: "" ""
+}
+
+/* ############################################################################ Reset CSS */
