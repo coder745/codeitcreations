@@ -236,6 +236,35 @@ return true;
 						<h1>Got a Question / Need an Estimate?</h1>
 						<!--<?php include('scripts/functions.php'); ?>-->
 						<!-- I need to edit the functions.php file above to be able to include it here -->
+						<form action="" method="post">
+							<fieldset>
+								<div class="field required">
+									<label for="name">Your Name</label>
+									<input type="text" name="name" id="name" class="text verifyText" title="*first last" />
+									<span class="iferror">Field required!</span>
+								</div><!-- E_field -->
+
+								<div class="field required\">
+								<label for="email">Your Email</label>
+								<input type="text" id="email" name="email" class="text verifyMail" title="*example@email.com" />
+								<span class="iferror">Not a valid email address!</span>
+								</div><!-- E_field -->
+
+								<div class="field required">
+								<label for="site">Your Site</label>
+								<input type="text" id="site" name="site" class="text verifyURL" title="*www.example.com" />
+								<span class="iferror">Not a valid web address!</span>
+								</div><!-- E_field -->
+
+								<input type='text' name='contact_empty' value='' class='hide' />
+
+								<label for="description">Work Needed</label>
+								<textarea name="description" id="description" cols="10" rows="10">
+								</textarea>
+
+								<input class="button" disabled='disabled' type="submit" value="Submit" name="submit" />
+							</fieldset>
+						</form>
 					</div><!-- E_contactBox -->
 				</div><!-- E_section -->
 
